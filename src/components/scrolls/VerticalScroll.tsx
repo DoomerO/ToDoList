@@ -23,7 +23,7 @@ const VerticalScroll = ({children} : verticalScrollProps) => {
                 borderRadius: '50px',
             },
         }}>
-            <Stack direction="column" h="fit-content" w="100%" justifyContent="center" align="center">
+            <Stack direction="column" spacing={0} h="fit-content" w="100%" justifyContent="center" align="center">
                 {children}
             </Stack>
         </Flex>

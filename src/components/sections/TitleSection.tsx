@@ -1,4 +1,4 @@
-import { Flex, ResponsiveObject, ResponsiveValue, Text, FlexProps } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 
 interface TitleSectionProps {
     title?: string,
