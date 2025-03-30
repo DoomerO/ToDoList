@@ -10,7 +10,6 @@ export default defineConfig({
     port: 5173,
   },
   preview: {
-    port: process.env.PORT ? Number(process.env.PORT) : 4173, // Ensure the preview server uses the correct port
     allowedHosts: ["todolist-vkng.onrender.com"], // Allow your Render domain
   },
 })
